@@ -1,0 +1,359 @@
+$date
+	Wed May 19 15:51:47 2021
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module tb_ring $end
+$var wire 4 ! out [3:0] $end
+$var reg 1 " clk $end
+$var reg 1 # rstn $end
+$var reg 4 $ xin [3:0] $end
+$scope module r0 $end
+$var wire 1 " clk $end
+$var wire 1 # rstn $end
+$var wire 4 % xin [3:0] $end
+$var wire 1 & q_bar3 $end
+$var wire 1 ' q_bar2 $end
+$var wire 1 ( q_bar1 $end
+$var wire 1 ) q_bar0 $end
+$var wire 1 * q3 $end
+$var wire 1 + q2 $end
+$var wire 1 , q1 $end
+$var wire 1 - q0 $end
+$var wire 4 . out [3:0] $end
+$scope module dff0 $end
+$var wire 1 " clk $end
+$var wire 1 / d $end
+$var wire 1 ) qn $end
+$var wire 1 # rstn $end
+$var reg 1 - q $end
+$upscope $end
+$scope module dff1 $end
+$var wire 1 " clk $end
+$var wire 1 0 d $end
+$var wire 1 ( qn $end
+$var wire 1 # rstn $end
+$var reg 1 , q $end
+$upscope $end
+$scope module dff2 $end
+$var wire 1 " clk $end
+$var wire 1 1 d $end
+$var wire 1 ' qn $end
+$var wire 1 # rstn $end
+$var reg 1 + q $end
+$upscope $end
+$scope module dff3 $end
+$var wire 1 " clk $end
+$var wire 1 2 d $end
+$var wire 1 & qn $end
+$var wire 1 # rstn $end
+$var reg 1 * q $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+02
+11
+00
+1/
+b101 .
+1-
+0,
+1+
+0*
+0)
+1(
+0'
+1&
+b1011 %
+b1011 $
+1#
+1"
+b101 !
+$end
+#5
+0"
+#10
+1"
+#15
+0"
+#20
+12
+0/
+10
+01
+b101 $
+b101 %
+1"
+#25
+0"
+#30
+0&
+1'
+0(
+1)
+1*
+0+
+1,
+b1010 !
+b1010 .
+0-
+1"
+#35
+0"
+#40
+1/
+00
+11
+b1010 $
+b1010 %
+1"
+#45
+0"
+#50
+0'
+1(
+0)
+1+
+0,
+b1101 !
+b1101 .
+1-
+1"
+#55
+0"
+#60
+0/
+10
+b1101 $
+b1101 %
+1"
+#65
+0"
+#70
+0(
+1)
+1,
+b1110 !
+b1110 .
+0-
+1"
+#75
+0"
+#80
+1/
+b1110 $
+b1110 %
+1"
+#85
+0"
+#90
+0)
+b1111 !
+b1111 .
+1-
+1"
+#95
+0"
+#100
+02
+b1111 $
+b1111 %
+1"
+#105
+0"
+#110
+1&
+b111 !
+b111 .
+0*
+1"
+#115
+0"
+#120
+01
+b111 $
+b111 %
+1"
+#125
+0"
+#130
+1'
+b11 !
+b11 .
+0+
+1"
+#135
+0"
+#140
+00
+b11 $
+b11 %
+1"
+#145
+0"
+#150
+1(
+b1 !
+b1 .
+0,
+1"
+#155
+0"
+#160
+12
+0/
+b1 $
+b1 %
+1"
+#165
+0"
+#170
+0&
+1)
+1*
+b1000 !
+b1000 .
+0-
+1"
+#175
+0"
+#180
+02
+11
+b1000 $
+b1000 %
+1"
+#185
+0"
+#190
+1&
+0'
+0*
+b100 !
+b100 .
+1+
+1"
+#195
+0"
+#200
+10
+01
+b100 $
+b100 %
+1"
+#205
+0"
+#210
+1'
+0(
+0+
+b10 !
+b10 .
+1,
+1"
+#215
+0"
+#220
+12
+1/
+00
+b10 $
+b10 %
+1"
+#225
+0"
+#230
+0&
+1(
+0)
+1*
+0,
+b1001 !
+b1001 .
+1-
+1"
+#235
+0"
+#240
+0/
+11
+b1001 $
+b1001 %
+1"
+#245
+0"
+#250
+0'
+1)
+1+
+b1100 !
+b1100 .
+0-
+1"
+#255
+0"
+#260
+02
+10
+b1100 $
+b1100 %
+1"
+#265
+0"
+#270
+1&
+0(
+0*
+b110 !
+b110 .
+1,
+1"
+#275
+0"
+#280
+12
+1/
+01
+b110 $
+b110 %
+1"
+#285
+0"
+#290
+0&
+1'
+0)
+1*
+0+
+b1011 !
+b1011 .
+1-
+1"
+#295
+0"
+#300
+02
+00
+11
+b1011 $
+b1011 %
+1"
+#305
+0"
+#310
+1&
+0'
+1(
+0*
+1+
+b101 !
+b101 .
+0,
+1"
